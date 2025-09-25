@@ -1,0 +1,14 @@
+services:
+  key-of-three:
+    build: ./Key-of-Three
+    ports:
+      - "1337:1337"
+    restart: unless-stopped
+    container_name: ctf-key-of-three
+
+  the-secret-bake:
+    build: ./The-Secret-Bake
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
+    container_name: ctf-the-secret-bake
