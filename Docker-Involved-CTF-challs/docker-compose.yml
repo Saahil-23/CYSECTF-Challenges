@@ -12,3 +12,18 @@ services:
       - "5000:5000"
     restart: unless-stopped
     container_name: ctf-the-secret-bake
+
+  ssh-challenge:
+    build: ./Root-me-if-you-can # Assuming this is the correct directory name without spaces now
+    ports:
+      - "2222:22"
+    restart: unless-stopped
+    container_name: ctf-ssh-challenge
+
+  ftp-challenge:
+    build: ./Get-the-flag # Using the directory name you provided
+    ports:
+      - "2121:21" # Maps container's FTP control port to host's 2121
+      - "30000-30009:30000-30009" # Maps the passive port range
+    restart: unless-stopped
+    container_name: ctf-ftp-challenge

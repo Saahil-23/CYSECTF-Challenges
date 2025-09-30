@@ -64,7 +64,7 @@ HTML_TEMPLATE = """
     <div class="container">
         <h1>🍪 Grandma's Secret Chocolate Chip Cookie Recipe</h1>
         
-        <img src="/static/cookie.jpg?version=1" alt="Delicious Chocolate Chip Cookie" class="cookie-img">
+        <img src="/static/cookie.jpg" alt="Delicious Chocolate Chip Cookie" class="cookie-img">
         
         <div class="recipe">
             <div class="ingredients">
