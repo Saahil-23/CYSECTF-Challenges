@@ -11,12 +11,12 @@ RUN apt-get update && apt-get install -y \
 # Create SSH user and set password
 RUN useradd -m -s /bin/bash user && echo "user:StrongP@ssw0rd" | chpasswd
 
-# Add flag in user's home
-RUN echo "FLAG{user_level_ssh_flag}" > /home/user/flag.txt && \
-    chown user:user /home/user/flag.txt && chmod 600 /home/user/flag.txt
+# Remove the user flag and replace with hint note
+RUN echo "Hint: Sometimes scheduled tasks can elevate your privileges. Check what commands you can run with elevated rights." > /home/user/note.txt && \
+    chown user:user /home/user/note.txt && chmod 644 /home/user/note.txt
 
-# Add root-only flag
-RUN echo "FLAG{root_level_priv_esc_success}" > /root/root.txt && chmod 600 /root/root.txt
+# Add root-only flag (final goal)
+RUN echo "CYSE{4T_C0MM4ND_PR1V_3SC_M4573R}" > /root/root.txt && chmod 600 /root/root.txt
 
 # Grant user sudo rights ONLY to `at`
 RUN echo "user ALL=(ALL) NOPASSWD: /usr/bin/at" > /etc/sudoers.d/at-only

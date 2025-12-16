@@ -18,7 +18,7 @@ RUN mkdir -p /home/ftp/anonymous && \
 
 # Setup ftpuser home folder with flag
 RUN mkdir -p /home/ftpuser && \
-    echo "CYSE{ftp_success}" > /home/ftpuser/flag.txt && \
+    echo "CYSE{FTP_PR0T0C0L_W1Z4RD}" > /home/ftpuser/flag.txt && \
     chown -R ftpuser:ftpuser /home/ftpuser && chmod 700 /home/ftpuser && chmod 600 /home/ftpuser/flag.txt
 
 # Copy vsftpd config

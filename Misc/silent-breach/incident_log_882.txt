@@ -1,0 +1,15 @@
+[02:14] DarkSoul: Yo, status check. Are we inside?
+
+[02:15] R00tK1t: We are golden. Root access established on the db server. 🔥󠄶󠅙󠅞󠅗󠅕󠅢󠅠󠅢󠅙󠅞󠅤󠅙󠅞󠅗󠄪󠄐󠄸󠅑󠅓󠅛󠅕󠅢󠅣󠄐󠅙󠅞󠅣󠅕󠅢󠅤󠄐󠅊󠅇󠄳󠅣󠄐󠅙󠅞󠅤󠅟󠄐󠅜󠅕󠅑󠅛󠅕󠅔󠄐󠅔󠅟󠅓󠅥󠅝󠅕󠅞󠅤󠅣󠄐󠄘󠅜󠅙󠅛󠅕󠄐󠅤󠅘󠅙󠅣󠄐󠅓󠅘󠅑󠅤󠄙󠄐󠅤󠅟󠄐󠅙󠅔󠅕󠅞󠅤󠅙󠅖󠅩󠄐󠅧󠅘󠅙󠅓󠅘󠄐󠅕󠅝󠅠󠅜󠅟󠅩󠅕󠅕󠄐󠅜󠅕󠅑󠅛󠅕󠅔󠄐󠅙󠅤󠄐󠅒󠅑󠅣󠅕󠅔󠄐󠅟󠅞󠄐󠅤󠅘󠅕󠄐󠅥󠅞󠅙󠅡󠅥󠅕󠄐󠅒󠅙󠅞󠅑󠅢󠅩󠄐󠅠󠅑󠅤󠅤󠅕󠅢󠅞󠄞
+
+[02:15] DarkSoul: Nice. What about the logs? Any footprints left behind?
+
+[02:16] R00tK1t: Cleaned everything. Their SIEM didn't pick up a single packet. 😂󠄶󠅙󠅜󠅤󠅕󠅢󠄐󠄵󠅦󠅑󠅣󠅙󠅟󠅞󠄪󠄐󠄱󠄐󠅓󠅟󠅝󠅝󠅟󠅞󠄐󠅑󠅤󠅤󠅑󠅓󠅛󠄐󠅙󠅣󠄐󠅙󠅞󠅚󠅕󠅓󠅤󠅙󠅞󠅗󠄐󠅊󠅇󠄳󠅣󠄐󠅙󠅞󠅣󠅙󠅔󠅕󠄐󠅝󠅑󠅜󠅙󠅓󠅙󠅟󠅥󠅣󠄐󠅛󠅕󠅩󠅧󠅟󠅢󠅔󠅣󠄐󠄘󠅕󠄞󠅗󠄞󠄐󠄟󠅒󠅙󠅞󠄟󠅣󠅘󠄐󠄝󠄮󠄐󠄟󠅒󠅙󠅞󠄟󠅣󠅋󠅊󠅇󠄳󠅍󠅘󠄙󠄐󠅤󠅟󠄐󠅒󠅩󠅠󠅑󠅣󠅣󠄐󠅇󠄱󠄶󠅣󠄐󠅑󠅞󠅔󠄐󠅣󠅤󠅢󠅙󠅞󠅗󠄝󠅝󠅑󠅤󠅓󠅘󠅙󠅞󠅗󠄐󠅑󠅜󠅗󠅟󠅢󠅙󠅤󠅘󠅝󠅣󠄞
+
+[02:17] DarkSoul: Solid work. Did you plant the backdoor for persistence?
+
+[02:18] R00tK1t: Way ahead of you. Hidden deep in the system config. 😎󠅀󠅘󠅙󠅣󠅘󠅙󠅞󠅗󠄪󠄐󠄱󠅤󠅤󠅑󠅓󠅛󠅕󠅢󠅣󠄐󠅥󠅣󠅕󠄐󠅊󠅇󠄳󠅣󠄐󠅙󠅞󠄐󠅅󠅂󠄼󠅣󠄐󠅤󠅟󠄐󠅓󠅢󠅕󠅑󠅤󠅕󠄐󠄗󠅘󠅟󠅝󠅟󠅗󠅜󠅩󠅠󠅘󠅣󠄗󠄞󠄐󠅄󠅘󠅕󠄐󠅔󠅟󠅝󠅑󠅙󠅞󠄐󠅜󠅟󠅟󠅛󠅣󠄐󠅜󠅙󠅛󠅕󠄐󠄗󠅗󠅟󠅟󠅗󠅜󠅕󠄞󠅓󠅟󠅝󠄗󠄐󠅤󠅟󠄐󠅩󠅟󠅥󠄜󠄐󠅒󠅥󠅤󠄐󠅤󠅘󠅕󠄐󠅓󠅟󠅝󠅠󠅥󠅤󠅕󠅢󠄐󠅢󠅕󠅑󠅔󠅣󠄐󠅙󠅤󠄐󠅑󠅣󠄐󠅑󠄐󠅓󠅟󠅝󠅠󠅜󠅕󠅤󠅕󠅜󠅩󠄐󠅔󠅙󠅖󠅖󠅕󠅢󠅕󠅞󠅤󠄐󠅣󠅤󠅢󠅙󠅞󠅗󠄞
+
+[02:19] DarkSoul: Alright, send me the keys and close the connection.
+
+[02:20] R00tK1t: Transferring now. Don't lose them. 🚀󠅃󠄱󠄻󠄵󠄳󠅫󠅪󠅧󠅓󠅏󠅝󠄤󠅣󠅤󠄣󠅢󠅏󠄠󠅖󠅏󠅔󠄡󠅣󠅗󠅥󠄡󠅣󠄣󠅭

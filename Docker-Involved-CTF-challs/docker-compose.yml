@@ -27,3 +27,18 @@ services:
       - "30000-30009:30000-30009" # Maps the passive port range
     restart: unless-stopped
     container_name: ctf-ftp-challenge
+
+  directory-discovery:
+    build: ./Directory-Discovery
+    ports:
+      - "9676:9676"
+    restart: unless-stopped
+    container_name: ctf-directory-discovery
+
+  glob-challenge:
+    build: ./Glob-Master
+    ports:
+      - "2223:22"
+    restart: unless-stopped
+    container_name: ctf-glob-master
+
