@@ -16,7 +16,7 @@ RUN echo "Hint: Sometimes scheduled tasks can elevate your privileges. Check wha
     chown user:user /home/user/note.txt && chmod 644 /home/user/note.txt
 
 # Add root-only flag (final goal)
-RUN echo "CYSE{4T_C0MM4ND_PR1V_3SC_M4573R}" > /root/root.txt && chmod 600 /root/root.txt
+RUN echo "SAKEC{4T_C0MM4ND_PR1V_3SC_M4573R}" > /root/root.txt && chmod 600 /root/root.txt
 
 # Grant user sudo rights ONLY to `at`
 RUN echo "user ALL=(ALL) NOPASSWD: /usr/bin/at" > /etc/sudoers.d/at-only

@@ -84,7 +84,7 @@ HTML_TEMPLATE = """
 """
 
 # The flag to be encoded - using the recommended leet flag
-FLAG = "CYSE{H1DD3N_D1R_D3C0D3R}"
+FLAG = "SAKEC{H1DD3N_D1R_D3C0D3R}"
 
 @app.route('/')
 def index():
@@ -132,7 +132,7 @@ status: ACTIVE
 @app.route('/robots.txt')
 def robots():
     """Robots.txt file - common place to check"""
-    return "User-agent: *\nDisallow: /admin\nDisallow: /backup\n\n# Nothing to see here..."
+    return "User-agent: *\nDisallow: /admin\nDisallow: /backup\nDisallow: /6769\n\n# Nothing to see here..."
 
 @app.route('/.gitignore')
 def gitignore():
